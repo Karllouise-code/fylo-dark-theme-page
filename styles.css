@@ -31,6 +31,10 @@ a {
     color: var(--font-color);
 }
 
+p {
+    line-height: 1.5;
+}
+
 
 /** COMPONENTS **/
 
@@ -106,7 +110,6 @@ nav a {
 .intro p {
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.5rem;
     margin: 0 auto 4em;
     width: 80%;
 }
@@ -153,7 +156,6 @@ nav a {
 }
 
 .offers-container p {
-    line-height: 1.5;
     margin-top: .5em;
 }
 
@@ -217,7 +219,6 @@ nav a {
 }
 
 .second-col p {
-    line-height: 1.5;
     margin-bottom: 1rem;
 }
 
@@ -239,9 +240,8 @@ nav a {
     color: var(--cta-light);
 }
 
-.button-wrapper a img {
+.arrow {
     cursor: pointer;
-    padding-left: 2rem;
 }
 
 
@@ -272,10 +272,6 @@ nav a {
     border-radius: .5rem;
     padding: 2.5rem 2rem;
     box-shadow: 0 0 .5em var(--intro-email-background)
-}
-
-.testimonials-col p {
-    line-height: 1.4;
 }
 
 .testimonials-col img {
@@ -310,6 +306,7 @@ nav a {
     width: 80%;
     text-align: center;
     margin: 10rem auto;
+    padding-top: 7rem;
 }
 
 .cta-container {
@@ -321,4 +318,39 @@ nav a {
 .email-wrapper {
     width: 80%;
     margin: auto;
+}
+
+.cta h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.cta p {
+    margin-bottom: 2em;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#email {
+    flex-basis: 65%;
+    border-radius: 5rem;
+    height: 3.5rem;
+    margin-right: 2rem;
+    outline: none;
+    padding: 2em;
+}
+
+.email-btn {
+    height: 3.5rem;
+    text-align: left;
+    flex-basis: 40%;
+    padding: 0 2rem;
+    cursor: pointer;
 }
