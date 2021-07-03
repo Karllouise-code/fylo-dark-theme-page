@@ -27,6 +27,7 @@ body {
 }
 
 a {
+    text-decoration: none;
     color: var(--font-color);
 }
 
@@ -42,6 +43,7 @@ a {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 13rem;
 }
 
 header {
@@ -125,6 +127,7 @@ nav a {
     width: 100%;
     inset: 35rem 0 0 0;
     z-index: -1;
+    height: 70%;
 }
 
 
@@ -137,7 +140,7 @@ nav a {
 }
 
 .offers-container {
-    margin: 10rem auto 10rem;
+    margin: 3rem auto 10rem;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -176,4 +179,146 @@ nav a {
 .third-offer h3,
 .fourth-offer h3 {
     padding-top: 2rem;
+}
+
+
+/** THIRD SECTION **/
+
+.third-section {
+    display: flex;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.first-col img {
+    width: 100%;
+}
+
+.second-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+    margin-left: 4rem;
+}
+
+.second-col h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.second-col p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.link-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.button-wrapper {
+    display: flex;
+    border-bottom: 2px solid var(--cta-light);
+    height: 2rem;
+    align-items: center;
+}
+
+.second-col a {
+    text-decoration: none;
+    padding-right: 5px;
+    color: var(--cta-light);
+}
+
+.button-wrapper a img {
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+
+/** TESTIMONIALS **/
+
+.testimonials {
+    width: 85%;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    padding-top: 5rem;
+}
+
+.testimonials-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.quote {
+    position: absolute;
+    inset: 15% 0 0 0;
+    z-index: -1;
+}
+
+.testimonials-col {
+    background: var(--testimonials-background);
+    border-radius: .5rem;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 0 .5em var(--intro-email-background)
+}
+
+.testimonials-col p {
+    line-height: 1.4;
+}
+
+.testimonials-col img {
+    width: 100%;
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.profile-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.author {
+    margin-left: 1rem;
+}
+
+.author h5 {
+    font-size: .9rem;
+}
+
+.author p {
+    padding-top: .2rem;
+    font-size: 10px;
+}
+
+
+/** CALL-TO-ACTION **/
+
+.cta {
+    width: 80%;
+    text-align: center;
+    margin: 10rem auto;
+}
+
+.cta-container {
+    background: var(--intro-email-background);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.email-wrapper {
+    width: 80%;
+    margin: auto;
 }
