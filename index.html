@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de376feec1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <header>
             <div class="container">
                 <div class="navcontainer">
-                    <img src="/images/logo.svg" alt="">
+                    <img src="/images/logo.svg" alt="logo">
                     <nav>
                         <ul>
                             <li><a href="">Features</a></li>
@@ -34,14 +34,14 @@
 
         <div class="wrapper">
             <div class="container">
-                <img class="intro-img" src="/images/illustration-intro.png" alt="">
+                <img class="intro-img" src="/images/illustration-intro.png" alt="intro-pic">
                 <div class="intro-content">
                     <h1>All your files in one secure location, accessible anywhere.</h1>
                     <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                     <a href="" class="hero-btn">Get Started</a>
                 </div>
             </div>
-            <img class="bg-img" src="images/bg-curvy-desktop.svg" alt="">
+            <img class="bg-img" src="images/bg-curvy-desktop.svg" alt="desktop">
         </div>
     </section>
 
@@ -50,13 +50,13 @@
     <section class="offers">
         <div class="offers-container">
             <div class="first-offer">
-                <img src="/images/icon-access-anywhere.svg" alt="">
+                <img src="/images/icon-access-anywhere.svg" alt="accessible">
                 <h3>Access your files, anywhere</h3>
                 <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
             </div>
 
             <div class="second-offer">
-                <img src="images/icon-security.svg" alt="">
+                <img src="images/icon-security.svg" alt="security">
                 <h3>Security you can trust</h3>
                 <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
             </div>
@@ -142,56 +142,104 @@
                 <h1>Get early access today</h1>
                 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             </div>
-            <div class="input-wrapper">
-                <input type="email" name="email" id="email" placeholder="email@example.com">
-                <div class="button-wrap">
-                    <a href=""><button class="hero-btn email-btn" type="submit">Get Started For Free</a></button>
+            <form class="form" id="form">
+                <div class="input-wrapper">
+                    <input type="email" name="email" id="email" placeholder="email@example.com">
+                    <small>Please enter a valid email address</small>
+                    <div class="button-wrap">
+                        <button class="hero-btn email-btn" type="submit">Get Started For Free</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 
     <!--* FOOTER *-->
-    <section>
+    <section class="footer-wrapper">
+        <div class="footer-bg">
+        </div>
         <footer>
-            <img src="images/logo.svg" alt="logo">
+            <img class="footer-logo" src="images/logo.svg" alt="">
+            <div class="footer-content">
+                <div class="footer-first">
+                    <img src="images/icon-location.svg" alt="location">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
 
-            <div class="footer-first">
-                <img src="images/icon-location.svg" alt="location">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            </div>
+                <div class="footer-second">
+                    <img src="images/icon-phone.svg" alt="phone">
+                    <p>+1-543-123-4567</p>
+                    <img src="images/icon-email.svg" alt="email">
+                    <p>example@fylo.com</p>
+                </div>
 
-            <div class="footer-second">
-                <img src="images/icon-phone.svg" alt="phone">
-                <p>+1-543-123-4567</p>
-                <img src="images/icon-email.svg" alt="email">
-                <p>example@fylo.com</p>
-            </div>
+                <div class="footer-third">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer-third">
-                <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Jobs</a></li>
-                    <li><a href="">Press</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer-fourth">
-                <ul>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Terms</a></li>
-                    <li><a href="">Privacy</a></li>
-                </ul>
-            </div>
+                <div class="footer-fifth">
+                    <a href=""> <i class="fa fa-facebook"></i></a>
+                    <a href=""> <i class="fa fa-twitter"></i></a>
+                    <a href=""> <i class="fa fa-instagram"></i></a>
+                </div>
 
-            <div class="footer-fifth">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-instagram"></i>
             </div>
         </footer>
     </section>
+
+    <script>
+        const form = document.getElementById('form');
+        const email = document.getElementById('email');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            checkInputs();
+        });
+
+        function checkInputs() {
+            //get values from the inputs
+            const emailValue = email.value.trim();
+
+            if (emailValue === '') {
+                //show error
+                // add error class
+                setErrorFor(email, 'Please enter a valid email address')
+            } else if (!isEmail(emailValue)) {
+                setErrorFor(email, 'Please enter a valid email address')
+            } else {
+                //add success class
+                setSuccessFor(email);
+            }
+        }
+
+        function setErrorFor(input, message) {
+            const formControl = input.parentElement; // form-control
+            const small = formControl.querySelector('small');
+
+            // add error message inside small
+            small.innerText = message;
+
+            //add error class
+            formControl.className = 'input-wrapper error'
+        }
+
+        function isEmail(email) {
+            return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+        }
+    </script>
 
 </body>
 
