@@ -25,13 +25,13 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Full Screenshot
 
 ![](https://github.com/Karllouise-code/fylo-dark-theme-page/blob/master/images/fyloscreenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/css-flexbox-grid-8Lh3uD6Cg](https://www.frontendmentor.io/solutions/css-flexbox-grid-8Lh3uD6Cg)
 - Live Site URL: [https://karllouise-code.github.io/fylo-dark-theme-page](https://karllouise-code.github.io/fylo-dark-theme-page/)
 
 ### Built with
