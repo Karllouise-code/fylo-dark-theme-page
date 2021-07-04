@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Karllouise-code/fylo-dark-theme-page/blob/master/images/fyloscreenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://karllouise-code.github.io/fylo-dark-theme-page/)
+- Live Site URL: [https://karllouise-code.github.io/fylo-dark-theme-page](https://karllouise-code.github.io/fylo-dark-theme-page/)
 
 ### Built with
 
